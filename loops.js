@@ -41,6 +41,7 @@ var brandStuff = [
 ];
 // let print it in a for loop
 for (k = 0; k < brandStuff.length; k++) {
-    console.log(brandStuff[k]);
+    console.log(brandStuff[k].name + "'s " + brandStuff[k].product + " costs $" + brandStuff[k].price + ".");
 }
 // much better
+
